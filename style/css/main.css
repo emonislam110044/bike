@@ -1,0 +1,120 @@
+
+
+/* navigation */
+
+
+.head-button button{
+    color: #fff;
+    background-color: #E76F51;
+    margin: 5px;
+}
+.home-color a{
+    color: #fff;
+}
+
+/* header */
+#head-color{
+    background-color: #264653;
+}
+
+.head-text p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+}
+.head-text h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 70px;
+}
+
+.Purchase-btn button{
+    padding-top:10px ;
+    border:1px solid #E76F51;
+    background-color: #E76F51;
+    width: 150px;
+    height: 50px;
+    color: black;
+    border-radius: 5px;
+    transition: .8s;
+}
+.Purchase-btn button:hover{
+    background:none;
+    color: #fff;
+}
+/* text color */
+.span-color{
+    color:#E76F51;
+}
+
+/* gray-scale */
+#gray-scale{
+    filter: grayscale(100%);
+}
+
+/* card button */
+.button a{
+    padding-top:10px ;
+    border:1px solid #E76F51;
+    width: 150px;
+    height: 50px;
+    color: #E76F51;
+    border-radius: 5px;
+    transition: .8s;
+}
+.button a:hover{
+    background-color: #E76F51;
+    color: black;
+}
+
+
+/* Happy Clients    */
+
+.Happy-Clients a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #23A6F0;
+
+}
+.Happy-Clients small{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 800;
+    color: black;
+
+}
+
+.star i{
+    color: chocolate;
+}
+
+.Happy-Clients-text p{
+    text-align: justify;
+    margin-left: 10px;
+    color: #6C6C6C;
+}
+
+/* footer */
+
+footer {
+    background-color: #0B0D17;
+border-top-left-radius: 100px;
+ 
+}
+
+.footer p{
+    color: #fff;
+    margin: 5px;
+}
+
+.footer ul li{
+     
+    color: #fff;
+    list-style: none;
+    margin: 5px;
+    cursor: pointer;
+}
