@@ -19,7 +19,7 @@
 
 <body>
     <!-- header section start -->
-    <header id="head-color">
+    <header class="head-color container-fluid">
 
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
@@ -55,10 +55,10 @@
 
         <!-- navigation end -->
 
-        <section class="m-5">
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="row ">
 
-            <div class="d-flex flex-row justify-content-around align-items-center p-5 m-3">
-                <div class="head-text">
+                <div class="head-text  my-5  container col-xl-6  col-sm-12">
                     <p>Computer-controlled digital transistorized with electronic advance</p>
                     <h1>Honda CBR 300R</h1>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia
@@ -97,11 +97,18 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    <img src="images/header-bike.png" width="550px" height="450px" alt="">
+
+
+                <div class="col-xl-6 col-sm-12">
+                    <div class=" head-img">
+                        <img src="images/header-bike.png" width="100%" height="100%" alt="">
+                    </div>
                 </div>
+
             </div>
-        </section>
+        </div>
+
+
 
     </header>
     <!-- header section end-->
@@ -112,25 +119,27 @@
         <!-- Fetured Bikes start -->
         <section class="container">
 
-            <div class="d-flex flex-column justify-content-center align-items-center ">
-                <div class="d-flex flex-column align-items-center justify-content-center my-5">
-                    <h1>Fetured Bikes 2021</h1>
-                    <small class="span-color">Best bike collection</small>
-                </div>
-                <div class=" my-5 d-flex align-items-center justify-content-around">
-
-                    <div class=" mx-5">
-                        <img id="gray-scale" src="images/feature-bike.jpg" width="288px" height="243px" alt="">
+            <div class="d-flex flex-column justify-content-center align-items-center  ">
+                <div class="m-sm-5 m-xl-0">
+                    <div class="d-flex flex-column align-items-center justify-content-center my-5">
+                        <h1>Fetured Bikes 2021</h1>
+                        <small class="span-color">Best bike collection</small>
                     </div>
 
-                    <div class=" mx-5">
-                        <img src="images/feature-bike.jpg" width="288px" height="243px" alt="">
-                    </div>
 
-                    <div class=" mx-5">
-                        <img id="gray-scale" src="images/feature-bike.jpg" width="288px" height="243px" alt="">
+                    <div class="d-flex flex-row justify-content-center align-items-center">
+                        <div class="row d-sm-grid d-xl-flex   g-5">
+                            <div class="col-xl-4 col-sm-12  bike-size">
+                                <img id="gray-scale" src="images/feature-bike.jpg" width="100%" height="100%" alt="">
+                            </div>
+                            <div class="col-xl-4 col-sm-12  bike-size">
+                                <img src="images/feature-bike.jpg" width="100%" height="100%" alt="">
+                            </div>
+                            <div class="col-xl-4 col-sm-12  bike-size">
+                                <img id="gray-scale" src="images/feature-bike.jpg" width="100%" height="100%" alt="">
+                            </div>
+                        </div>
                     </div>
-
                 </div>
             </div>
 
@@ -143,13 +152,13 @@
         <section class="container">
             <div class="d-flex flex-column justify-content-center align-items-center">
                 <div>
-                    <h1>latest News</h1>
+                    <h1 class="my-5">latest News</h1>
                 </div>
 
-                <div class="d-flex flex-row justify-content-center align-items-center">
+                <div class="row d-flex flex-row justify-content-center align-items-center">
                     <!-- single card -->
 
-                    <div class="card m-3" style="width: 18rem;">
+                    <div class="col-sm-12 card m-3" style="width: 18rem;">
                         <div class="p-4"><img src="images/bike-1.png" class="card-img-top" alt="..."></div>
                         <div class="card-body">
                             <h5 class="card-title">Ducati XDIAVEL S-73</h5>
@@ -160,7 +169,7 @@
                     </div>
                     <!-- single card -->
 
-                    <div class="card m-3" style="width: 18rem;">
+                    <div class="col-sm-12 card m-3" style="width: 18rem;">
                         <div class="p-4"><img src="images/bike-2.png" class="card-img-top" alt="..."></div>
                         <div class="card-body">
                             <h5 class="card-title">Motorcycles & Scooters</h5>
@@ -171,7 +180,7 @@
                     </div>
                     <!-- single card -->
 
-                    <div class="card m-3" style="width: 18rem;">
+                    <div class="col-sm-12 card m-3" style="width: 18rem;">
                         <div class="p-4"><img src="images/bike-3.png" class="card-img-top" alt="..."></div>
                         <div class="card-body">
                             <h5 class="card-title">2021 Honda CBR500R</h5>
@@ -188,18 +197,18 @@
         <!-- latest News end -->
 
         <!-- Happy Clients start -->
-        <section class="container">
+        <section class="container d-flex  flex-sm-column justify-content-sm-center align-items-sm-center">
 
 
             <div class="d-flex flex-column justify-content-center align-items-center">
                 <div>
                     <h1 class="my-3">Happy <span class="span-color">Clients says</span></h1>
                 </div>
-                <div class="d-flex flex-row justify-content-center align-items-center my-5">
+                <div class="row d-flex flex-row justify-content-center align-items-center my-5">
 
 
                     <!-- single card  -->
-                    <div class="card mx-3" style="width:322px; height: 480px;">
+                    <div class="  col-sm-12 card mx-3" style="width:322px; height: 480px;">
 
                         <div class="d-flex flex-column justify-content-center align-items-center p-5">
 
@@ -234,7 +243,7 @@
                     </div>
 
                     <!-- single card  -->
-                    <div class="card mx-3" style="width:322px; height: 480px;">
+                    <div class="m-5 col-sm-12 card mx-3" style="width:322px; height: 480px;">
 
                         <div class="d-flex flex-column justify-content-center align-items-center p-5">
 
@@ -269,7 +278,7 @@
                     </div>
 
                     <!-- single card  -->
-                    <div class="card mx-3" style="width:322px; height: 480px;">
+                    <div class="col-sm-12 card mx-3" style="width:322px; height: 480px;">
 
                         <div class="d-flex flex-column justify-content-around align-items-center p-5">
 
@@ -320,10 +329,10 @@
 
                 <div class="container my-3">
                     <div class="row d-flex flex-row justify-content-center align-items-center ">
-                        <div class="col-md-6">
-                            <img src="images/faq.png" width="430px" height="422px" alt="">
+                        <div class="m-sm-5 m-lg-0 col-md-6 col-sm-12">
+                            <img src="images/faq.png" width="100%" height="100%" alt="">
                         </div>
-                        <div class=" col-md-6 ">
+                        <div class=" col-md-6 col-sm-12 m-lg-0 ">
                             <div class="border border-3 accordion accordion-flush" id="accordionFlushExample">
                                 <div class="accordion-item border border-2">
                                     <h2 class="accordion-header" id="flush-headingzero">
@@ -405,14 +414,83 @@
         <!-- Frequently Asked Questions end -->
 
 
+        <!-- extra section start -->
+        <section class="extra-section container p-5">
+
+
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <h1 class="my-5">principal <span class="span-color">collection</span></h1>
+                <div class="row g-3 d-flex flex-column justify-content-around align-items-center">
+                    <div class="col extra-row">
+                        <div class="d-flex flex-row justify-content-center align-items-center">
+                            <div class="mx-3 extra"><img src="images/extra-1.jpg" width="400px" alt=""></div>
+                            <div>
+                                <h1>Black Cruiser Motorcycle</h1>
+                                <h3>New collection</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, labore.</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col extra-row ">
+                        <div class="d-flex flex-row justify-content-around align-items-center">
+
+                            <div>
+                                <h1>Black Cruiser Motorcycle</h1>
+                                <h3>New collection</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, labore.</p>
+
+                            </div>
+                            <div class="mx-3 extra"><img src="images/extra-2.jpg" width="400px" alt=""></div>
+                        </div>
+
+                    </div>
+                    <div class="col extra-row">
+                        <div class="d-flex flex-row justify-content-around align-items-center">
+                            <div class="mx-3 extra"><img src="images/extra-3.jpg" width="400px" alt=""></div>
+                            <div>
+                                <h1>Black Cruiser Motorcycle</h1>
+                                <h3>New collection</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, labore.</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section id="logein"
+            class="container my-5 border border-3 d-flex flex-column justify-content-center align-items-center">
+            <h1 class="m-2">Give us your mail for new collection detail</h1>
+            <form class="my-5">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+
+        <!-- extra section end -->
+
+
     </main>
     <!-- main section start -->
 
-    <footer class="container">
-
-
-        <div class="d-flex flex-row justify-content-center align-items-center">
-            <div class="footer py-5">
+    <footer class="container ">
+        <div class="row d-flex flex-row justify-content-center align-items-center">
+            <div class="col-sm-12 col-lg-6 footer py-5">
                 <ul class="my-5">
                     <li>About</li>
                     <li>Features</li>
@@ -424,14 +502,12 @@
 
                 <p class="m-5">© 2020 bike. All rights reserved</p>
             </div>
-            <div class="footer">
+            <div class="col-sm-12 col-lg-6 px-5 footer">
                 <p>CONTACT</p>
                 <p>phone:0190000000</p>
                 <p>Email:abc@gmail.com</p>
             </div>
         </div>
-
-
     </footer>
 
 
